@@ -69,11 +69,12 @@ def Pytha_a_c(a, c):
     b = math.sqrt(b)
     return b
 
- def Pytha_b_c(b, c):
-     a = c ** 2 - b ** 2
-     a = math.sqrt(a)
-     retun a
+
+def Pytha_b_c(b, c):
+    a = c ** 2 - b ** 2
+    a = math.sqrt(a)
+    return a
 
 
-if __name__ ==  "__main__":
-
+if __name__ == "__main__":
+    print("Test 123")
