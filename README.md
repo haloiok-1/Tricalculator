@@ -5,6 +5,9 @@ Mit diesem Tool ist es möglich ein Dreieck zu berechnen
 V1.0
 erstes Update des Rechners
 Funktionen:
- - Winkel des Dreiecks berechnen,
- - Seitenlängen des Dreiecks berechnen,
 
+- Winkel des Dreiecks berechnen,
+- Seitenlängen des Dreiecks berechnen,
+
+V1.1
+kleiner Bugs behoben
