@@ -4,7 +4,6 @@ import math
 # Gamma = 90
 
 
-# Berechnung Ankathete
 def Ankathete_a(b, alpha):
     a = round(b / math.tan(math.radians(alpha)), 2)
     return a
@@ -78,3 +77,11 @@ def Pytha_b_c(b, c):
 
 if __name__ == "__main__":
     print("Test 123")
+    Test = True
+    print(type(Test))
+    if check_var(Test) == True:
+        print("It is a Number")
+    else:
+        print("It is not a number")
+
+    print(check_var(Test))
