@@ -9,8 +9,13 @@ Wenn du einen Wert nicht weißt, schreibe ein **?**.<br>
 Changelog:<br>
 
 V1.0<br>
-erstes Update des Rechners
+erstes Update des Rechners<br>
 Funktionen:
 
 - Winkel des Dreiecks berechnen,
 - Seitenlängen des Dreiecks berechnen,
+
+V1.0p<br>
+Änderungen:
+
+- Austausch von einer Operation
