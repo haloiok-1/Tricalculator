@@ -1,7 +1,11 @@
 import Trigonometriemodule as Tm
 
+<<<<<<< HEAD
 
 # Vars
+=======
+# vars
+>>>>>>> c0737d7285e84b3bd1c6743b21ae51828b7131a5
 complete = False
 alpha_lost = False
 beta_lost = False
@@ -19,25 +23,26 @@ input_c = input("Wie groß ist Seite c?\n")
 
 
 #umwandlung in floats(Winkel)
-if input_alpha != "?":
-    alpha = float(input_alpha)
-else:
+try:
+    alpha = int(input_alpha)
+except:
+    alpha = 0
     alpha_lost = True
-    alpha = 0.0
 
-
-if input_beta != "?":
-    beta = float(input_beta)
-else:
+try:
+    beta = int(input_beta)
+except:
+    beta = 0
     beta_lost = True
-    beta = 0.0
 
 
 #umwandlung in floats(Seiten)
-if input_a != "?":
-    a = float(input_a)
-else:
+try:
+    a = int(input_a)
+except:
+    a = 0
     a_lost = True
+<<<<<<< HEAD
     a = 0.0
 
 if input_b != "?":
@@ -51,11 +56,31 @@ if input_c != "?":
 else:
     c_lost = True
     c = 0.0
+=======
+>>>>>>> c0737d7285e84b3bd1c6743b21ae51828b7131a5
+
+try:
+    b = int(input_b)
+except:
+    b = 0
+    b_lost = True
+
+<<<<<<< HEAD
+# Sicherheitsabfragen(beta)
+
+    # unbekannte Hypotenuse berechenen
+=======
+try:
+    c = int(input_c)
+except:
+    c = 0
+    c_lost = True
 
 
 # Sicherheitsabfragen(beta)
 
-    # unbekannte Hypotenuse berechenen
+# unbekannte Hypotenuse berechenen
+>>>>>>> c0737d7285e84b3bd1c6743b21ae51828b7131a5
 if a_lost == False and alpha_lost == False and c_lost == True:
     c = Tm.Hypo_a_alpha(a, alpha)
     c_lost = False
@@ -72,6 +97,10 @@ if b_lost == False and alpha_lost == False and c_lost == True:
     c = Tm.Hypo_b_alpha(b, alpha)
     c_lost = False
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0737d7285e84b3bd1c6743b21ae51828b7131a5
 # unbekannte Ankatheten berechnen
 if a_lost == True and alpha_lost == False:
     a = Tm.Ankathete_a(b, alpha)
@@ -91,6 +120,10 @@ if b_lost == True and a_lost == False:
     b = Tm.Gegenkathete_b(a, alpha)
     b_lost = False
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0737d7285e84b3bd1c6743b21ae51828b7131a5
 # unbekannte Winkel berechnen
 if alpha_lost == True:
     alpha = Tm.alpha_berechnen(beta)
