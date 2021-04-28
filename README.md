@@ -8,7 +8,7 @@ Wenn du einen Wert nicht weißt, schreibe ein **?**.<br>
 <br>
 Changelog:<br>
 
-V1.0
+V1.0<br>
 erstes Update des Rechners
 Funktionen:
 
